@@ -4,6 +4,9 @@ import styles from "./styles.module.scss";
 import { Link } from "react-router-dom";
 
 function App() {
+  const currentUrl = window.location.pathname;
+  console.log(currentUrl === "/events");
+
   return (
     <div className={styles.headerContainer}>
       <div className={styles.Header}>
@@ -12,7 +15,12 @@ function App() {
           <div className={styles.twoColor}>CAMPUS</div>
         </span>
         <div className={styles.links}>
-          <Link to="/events">Мероприятия</Link>
+          <Link
+            to="/events"
+            className={currentUrl === "/events" ? styles.select : undefined}
+          >
+            Мероприятия
+          </Link>
           <Link to="/">Конкурсы</Link>
           <Link to="/">Точки роста</Link>
           <Link to="/">Проекты</Link>

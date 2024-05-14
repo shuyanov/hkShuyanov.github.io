@@ -17,6 +17,7 @@ export const Footer = () => {
           <span>3 curs</span>
           <span>3/147</span>
         </div>
+        <span className={styles.prods}>prod by Shuyanov</span>
       </div>
     </div>
   );
