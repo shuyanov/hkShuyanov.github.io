@@ -1,12 +1,17 @@
 #root {
   max-width: 1280px;
   margin: 0 auto;
-  padding: 2rem;
   text-align: center;
-  padding-bottom: 0px;
+
+  min-height: 100vh;
+  padding: 0;
+  margin: 0 auto;
 }
 
 .appMain {
   max-width: 1300px;
   width: 100%;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
 }

@@ -32,7 +32,7 @@ export const Publications = () => {
           variant="outlined"
         >
           Физика
-        </Button>{" "}
+        </Button>
         <Button
           sx={{
             borderRadius: 5,
