@@ -9,23 +9,23 @@ import { Publications } from "./Components/page/Publications/Publications";
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/hkShuyanov.github.io/",
     element: <RegisterPage />,
   },
   {
-    path: "/home",
+    path: "/hkShuyanov.github.io/home",
     element: <HomePage />,
   },
   {
-    path: "/singIn",
+    path: "/hkShuyanov.github.io/singIn",
     element: <SingIn />,
   },
   {
-    path: "/events",
+    path: "/hkShuyanov.github.io/events",
     element: <EventsPage />,
   },
   {
-    path: "/publications",
+    path: "/hkShuyanov.github.io/publications",
     element: <Publications />,
   },
 ]);

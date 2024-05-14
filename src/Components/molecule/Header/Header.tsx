@@ -19,9 +19,9 @@ function App() {
           >
             Мероприятия
           </Link>
-          <Link to="/">Конкурсы</Link>
-          <Link to="/">Точки роста</Link>
-          <Link to="/">Проекты</Link>
+          <Link to="/hkShuyanov.github.io/">Конкурсы</Link>
+          <Link to="/hkShuyanov.github.io/">Точки роста</Link>
+          <Link to="/hkShuyanov.github.io/">Проекты</Link>
           <Link
             to="/publications"
             className={
@@ -30,14 +30,14 @@ function App() {
           >
             Публикации
           </Link>
-          <Link to="/">Регистрация</Link>
+          <Link to="/hkShuyanov.github.io/">Регистрация</Link>
           <Button
             sx={{
               borderRadius: 5,
             }}
             size="small"
             variant="outlined"
-            href="#"
+            href="/hkShuyanov.github.io/"
           >
             Вход
           </Button>
