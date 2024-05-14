@@ -14,7 +14,7 @@ function App() {
         </Link>
         <div className={styles.links}>
           <Link
-            to="/events"
+            to="/hkShuyanov.github.io/events"
             className={currentUrl === "/events" ? styles.select : undefined}
           >
             Мероприятия
