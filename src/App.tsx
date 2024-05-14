@@ -9,7 +9,7 @@ import { Publications } from "./Components/page/Publications/Publications";
 
 const router = createBrowserRouter([
   {
-    path: "/hkShuyanov.github.io/",
+    path: "/",
     element: <RegisterPage />,
   },
   {
