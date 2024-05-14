@@ -1,8 +1,9 @@
 import React from "react";
-import Link from "@mui/material/Link";
+// import Link from "@mui/material/Link";
 import Button from "@mui/material/Button";
 import styles from "./styles.module.scss";
 import InputSech from "../../atoms/InputSerch/InputSerch";
+import { Link } from "react-router-dom";
 
 function App() {
   return (
@@ -13,12 +14,12 @@ function App() {
           <div className={styles.twoColor}>CAMPUS</div>
         </span>
         <div className={styles.links}>
-          <Link underline="none">Мероприятия</Link>
-          <Link underline="none">Конкурсы</Link>
-          <Link underline="none">Точки роста</Link>
-          <Link underline="none">Проекты</Link>
-          <Link underline="none">Публикации</Link>
-          <Link underline="none">Регистрация</Link>
+          <Link to="/">Мероприятия</Link>
+          <Link to="/">Конкурсы</Link>
+          <Link to="/">Точки роста</Link>
+          <Link to="/">Проекты</Link>
+          <Link to="/">Публикации</Link>
+          <Link to="/">Регистрация</Link>
           <Button
             sx={{
               borderRadius: 5,

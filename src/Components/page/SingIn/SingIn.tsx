@@ -2,10 +2,9 @@ import React from "react";
 import { RegisterInput } from "../../molecule/RegisterInput/RegisterInput";
 import { Button } from "@mui/material";
 import styles from "./styles.module.scss";
-import { Avatar } from "../../molecule/Avatar/Avatar";
 import { Link } from "react-router-dom";
 
-export const RegisterPage = () => {
+export const SingIn = () => {
   return (
     <div>
       <span className={styles.logoText}>
@@ -27,13 +26,13 @@ export const RegisterPage = () => {
                 size="large"
                 variant="outlined"
               >
-                Зарегистрироваться
+                Войти
               </Button>
             </Link>
           </div>
           <div className={styles.singInContainer}>
-            <span>Уже есть аккаунт?</span>
-            <Link to="/singIn">
+            <span>Нет аккаунта?</span>
+            <Link to="/">
               <Button
                 sx={{
                   borderRadius: 5,
@@ -44,13 +43,10 @@ export const RegisterPage = () => {
                 size="large"
                 variant="contained"
               >
-                Войти
+                зарегестрироваться
               </Button>
             </Link>
           </div>
-        </div>
-        <div>
-          <Avatar />
         </div>
       </div>
     </div>
