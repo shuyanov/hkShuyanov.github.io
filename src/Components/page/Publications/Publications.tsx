@@ -1,10 +1,7 @@
-import React from "react";
 import Header from "../../molecule/Header/Header";
 import { Button } from "@mui/material";
 import styles from "./styles.module.scss";
 
-import BitCardPublick from "../../atoms/BitCardPublick/BitCardPublick";
-import tr from "../../../assets/width.jpg";
 import { EventsNews } from "../../molecule/EventsNews/EventsNews";
 import { SubEventsNews } from "../../molecule/SubEventsNews/SubEventsNews";
 import { Footer } from "../../molecule/Footer/Footer";

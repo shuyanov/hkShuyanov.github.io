@@ -22,11 +22,12 @@ export const Avatar = () => {
   const imagesJacet = [jacet, jacetT, jacetTh];
 
   const changeImage = (
-    currentIndex: number,
+    currentJacetIndex: number,
     setCurrentIndex: React.Dispatch<React.SetStateAction<number>>,
     images: string[],
     direction: "prev" | "next"
   ) => {
+    currentJacetIndex;
     setCurrentIndex((prevIndex) =>
       direction === "prev"
         ? prevIndex === 0

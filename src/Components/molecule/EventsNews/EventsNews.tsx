@@ -1,4 +1,3 @@
-import * as React from "react";
 import styles from "./styles.module.scss";
 import cloud from "../../../assets/width.jpg";
 import BitCardPublick from "../../atoms/BitCardPublick/BitCardPublick";

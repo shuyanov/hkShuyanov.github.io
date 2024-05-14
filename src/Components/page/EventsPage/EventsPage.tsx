@@ -1,4 +1,3 @@
-import React from "react";
 import Header from "../../molecule/Header/Header";
 import { Shablon } from "../../molecule/Shablon/Shablon";
 import { EventsList } from "../../molecule/EventsList/EventsList";

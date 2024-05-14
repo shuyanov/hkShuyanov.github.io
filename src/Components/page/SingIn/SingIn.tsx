@@ -1,4 +1,3 @@
-import React from "react";
 import { RegisterInput } from "../../molecule/RegisterInput/RegisterInput";
 import { Button } from "@mui/material";
 import styles from "./styles.module.scss";
