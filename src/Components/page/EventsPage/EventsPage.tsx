@@ -18,7 +18,7 @@ export const EventsPage = () => {
       <EventsList lable={"Прошедшие мероприятия"} />
       <div className={styles.info}>
         <div className={styles.infoOrganaiz}>
-          <h3>ХОТИТЕ ОРГАНИЗОВАТЬ СВОЕ МЕРОПРИЯТИЕ?</h3>
+          <h3>ХОТИТЕ ОРГАНИЗОВАТЬ СВОЕ МЕРОПРИЯТИЕ ?</h3>
           <span>Тогда смело заполняйте анкету!</span>
         </div>
         <div className={styles.container}>
