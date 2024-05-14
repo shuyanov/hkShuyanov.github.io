@@ -23,7 +23,7 @@ function App() {
           <Link to="/hkShuyanov.github.io/">Точки роста</Link>
           <Link to="/hkShuyanov.github.io/">Проекты</Link>
           <Link
-            to="/publications"
+            to="/hkShuyanov.github.io/publications"
             className={
               currentUrl === "/publications" ? styles.select : undefined
             }
