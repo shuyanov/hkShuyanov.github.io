@@ -1,0 +1,59 @@
+.mainContainerInputs {
+    max-width: 650px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.container {
+    max-width: 650px;
+
+    padding: 16px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 32px;
+
+    border: 2px solid #004F98;
+    border-radius: 15px;
+}
+
+.singInContainer {
+    span {
+        font: Montserrat Black;
+        // font-weight: 500;
+        font-size: 24px;
+        color: #004F98;
+    }
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+.logoText {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font: Montserrat Black;
+    font-size: 16px;
+    font-weight: 900;
+
+    margin-top: 0px;
+    margin-bottom: 24px;
+
+    .opeColor {
+        color: #004f98;
+    }
+
+    .twoColor {
+        color: #74b5f4;
+    }
+}
+
+.userContainer {
+    display: flex;
+    gap: 105px;
+}
