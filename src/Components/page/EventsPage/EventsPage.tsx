@@ -23,7 +23,7 @@ export const EventsPage = () => {
         </div>
         <div className={styles.container}>
           <SendInput />
-          <Link to="/home">
+          <Link to="/hkShuyanov.github.io/home">
             <Button
               sx={{
                 borderRadius: 5,

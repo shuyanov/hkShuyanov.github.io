@@ -15,7 +15,7 @@ export const RegisterPage = () => {
         <div className={styles.mainContainerInputs}>
           <div className={styles.container}>
             <RegisterInput />
-            <Link to="/home">
+            <Link to="/hkShuyanov.github.io/home">
               <Button
                 sx={{
                   borderRadius: 5,
@@ -32,7 +32,7 @@ export const RegisterPage = () => {
           </div>
           <div className={styles.singInContainer}>
             <span>Уже есть аккаунт?</span>
-            <Link to="/singIn">
+            <Link to="/hkShuyanov.github.io/singIn">
               <Button
                 sx={{
                   borderRadius: 5,

@@ -14,7 +14,7 @@ export const SingIn = () => {
         <div className={styles.mainContainerInputs}>
           <div className={styles.container}>
             <RegisterInput />
-            <Link to="/home">
+            <Link to="/hkShuyanov.github.io/home">
               <Button
                 sx={{
                   borderRadius: 5,
@@ -31,7 +31,7 @@ export const SingIn = () => {
           </div>
           <div className={styles.singInContainer}>
             <span>Нет аккаунта?</span>
-            <Link to="/">
+            <Link to="/hkShuyanov.github.io/">
               <Button
                 sx={{
                   borderRadius: 5,

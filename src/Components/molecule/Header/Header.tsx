@@ -8,7 +8,7 @@ function App() {
   return (
     <div className={styles.headerContainer}>
       <div className={styles.Header}>
-        <Link to="/home" className={styles.logoText}>
+        <Link to="/hkShuyanov.github.io/home" className={styles.logoText}>
           <div className={styles.opeColor}>BIM</div>
           <div className={styles.twoColor}>CAMPUS</div>
         </Link>
