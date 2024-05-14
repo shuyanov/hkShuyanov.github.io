@@ -5,6 +5,7 @@ import { RegisterPage } from "./Components/page/RegisterPage/RegisterPage";
 
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { SingIn } from "./Components/page/SingIn/SingIn";
+import { EventsPage } from "./Components/page/EventsPage/EventsPage";
 
 const router = createBrowserRouter([
   {
@@ -18,6 +19,10 @@ const router = createBrowserRouter([
   {
     path: "/singIn",
     element: <SingIn />,
+  },
+  {
+    path: "/events",
+    element: <EventsPage />,
   },
 ]);
 

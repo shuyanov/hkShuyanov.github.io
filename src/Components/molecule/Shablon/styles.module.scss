@@ -1,0 +1,33 @@
+.shablon {
+  display: flex;
+  flex-direction: column;
+
+  padding: 20px;
+  height: 160px;
+  text-align: start;
+
+  h2 {
+    color: white;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    font-size: 35px;
+  }
+
+  span {
+    font-size: 20px;
+  }
+
+  button {
+    font-size: 10px;
+    border-radius: 30px;
+    margin-top: auto;
+    margin-left: auto;
+
+    color: white;
+    border: 1px solid white;
+    width: 200px;
+  }
+
+  border-radius: 15px;
+  background-color: #004F98;
+}
