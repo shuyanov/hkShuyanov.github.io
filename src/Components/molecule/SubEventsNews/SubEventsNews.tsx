@@ -8,7 +8,7 @@ type TEventsList = {
   lable: string;
 };
 
-const arr: TTags[] = [{ title: "физика" }];
+const arr: TTags[] = [{ title: "Искусство" }];
 
 export const SubEventsNews = ({ lable }: TEventsList) => {
   return (
@@ -19,99 +19,50 @@ export const SubEventsNews = ({ lable }: TEventsList) => {
           <div className={styles.newsContainer}>
             <BitCardPublick
               img={cloud}
-              date={"123"}
-              descriptions={"ыва"}
+              date={"Конкурс лучший рисунок"}
+              descriptions={""}
               size={"small"}
               tags={arr}
             />
             <BitCardPublick
               img={cloud}
-              date={"123"}
-              descriptions={"ыва"}
+              date={"Конкурс лучший рисунок"}
+              descriptions={""}
               size={"small"}
               tags={arr}
             />
             <BitCardPublick
               img={cloud}
-              date={"123"}
-              descriptions={"ыва"}
+              date={"Конкурс лучший рисунок"}
+              descriptions={""}
               size={"small"}
               tags={arr}
             />
             <BitCardPublick
               img={cloud}
-              date={"123"}
-              descriptions={"ыва"}
+              date={"Конкурс лучший рисунок"}
+              descriptions={""}
               size={"small"}
               tags={arr}
             />
             <BitCardPublick
               img={cloud}
-              date={"123"}
-              descriptions={"ыва"}
+              date={"Конкурс лучший рисунок"}
+              descriptions={""}
               size={"small"}
               tags={arr}
             />
             <BitCardPublick
               img={cloud}
-              date={"123"}
-              descriptions={"ыва"}
+              date={"Конкурс лучший рисунок"}
+              descriptions={""}
               size={"small"}
               tags={arr}
             />
             <BitCardPublick
               img={cloud}
-              date={"123"}
-              descriptions={"ыва"}
-              size={"small"}
-              tags={arr}
-            />
-            <BitCardPublick
-              img={cloud}
-              date={"123"}
-              descriptions={"ыва"}
-              size={"small"}
-              tags={arr}
-            />
-            <BitCardPublick
-              img={cloud}
-              date={"123"}
-              descriptions={"ыва"}
-              size={"small"}
-              tags={arr}
-            />
-            <BitCardPublick
-              img={cloud}
-              date={"123"}
-              descriptions={"ыва"}
-              size={"small"}
-              tags={arr}
-            />
-            <BitCardPublick
-              img={cloud}
-              date={"123"}
-              descriptions={"ыва"}
-              size={"small"}
-              tags={arr}
-            />
-            <BitCardPublick
-              img={cloud}
-              date={"123"}
-              descriptions={"ыва"}
-              size={"small"}
-              tags={arr}
-            />
-            <BitCardPublick
-              img={cloud}
-              date={"123"}
-              descriptions={"ыва"}
-              size={"small"}
-              tags={arr}
-            />
-            <BitCardPublick
-              img={cloud}
-              date={"123"}
-              descriptions={"ыва"}
+              date={"Конкурс лучший рисунок"}
+              descriptions={""}
               size={"small"}
               tags={arr}
             />
